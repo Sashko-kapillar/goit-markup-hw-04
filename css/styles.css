@@ -146,6 +146,13 @@ a {
 
 .hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(to top,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(/images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 188px 0;
 }
 
@@ -191,6 +198,27 @@ main>:first-child>.container {
 
 /* -----------    Advantages   --------- */
 
+.advantages-icon-container {
+
+  margin-bottom: 8px;
+}
+
+.advantages-icon-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-icon-item {
+  display: flex;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+}
+
+.advantages-icon-position {
+  margin: 0 auto;
+}
 
 .advantages-title {
   font-weight: 700;
@@ -286,6 +314,27 @@ main>:first-child>.container {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+/* .team-icon-container {
+   display: flex; 
+}*/
+
+.team-icon-list {
+  display: flex;
+  gap: 24px;
+  padding: 0 16px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+.team-icon-item {
+  width: calc((100% - 72px) / 4);
+  height: 40px;
+  background-color: #4d5ae5;
+  text-align: center;
+  border-radius: 50%;
+  ;
 }
 
 /* -----------    Team end  --------- */
