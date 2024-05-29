@@ -250,7 +250,6 @@ main>:first-child>.container {
 }
 
 .advantages-icon-container {
-
   margin-bottom: 8px;
 }
 
@@ -265,6 +264,7 @@ main>:first-child>.container {
   border-radius: 4px;
   width: 264px;
   height: 112px;
+  align-items: center;
 }
 
 .advantages-icon-position {
@@ -277,6 +277,10 @@ main>:first-child>.container {
 
 .team {
   background-color: #f4f4fd;
+}
+
+.team-container {
+  display: flex;
 }
 
 .team-title {
@@ -325,9 +329,9 @@ main>:first-child>.container {
   margin-bottom: 8px;
 }
 
-.team-icon-container {
-  display: flex;
-}
+/* .team-icon-container {
+  margin-bottom: 32px;
+} */
 
 .team-icon-list {
   display: flex;
@@ -339,16 +343,23 @@ main>:first-child>.container {
 .team-icon-item {
   display: flex;
   width: 40px;
-  /* width: calc((100% - 72px) / 4); */
   height: 40px;
-  background-color: transparent;
-  border: 1px solid #000;
-  align-items: center;
+  background-color: #4d5ae5;
   border-radius: 50%;
+  align-items: center;
+  justify-items: center;
+}
+
+.team-icon-link {
+  margin: 0 auto;
 }
 
 .team-icon-item-position {
-  z-index: 1;
+  fill: #f4f4fd;
+}
+
+.team-icon-use {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* -----------    Team end  --------- */
@@ -356,9 +367,9 @@ main>:first-child>.container {
 /* -----------    Portfolio  --------- */
 
 
-.portfolio-container {
+/* .portfolio-container {
   display: flex;
-}
+} */
 
 .portfolio-title {
   font-weight: 700;
@@ -391,7 +402,7 @@ main>:first-child>.container {
 
 .portfolio-img {
   width: 360px;
-  height: 300px;
+  /* height: 300px; */
 }
 
 .portfolio-subtitle {
