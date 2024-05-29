@@ -152,7 +152,7 @@ a {
     url(/images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   padding: 188px 0;
 }
 
@@ -198,27 +198,7 @@ main>:first-child>.container {
 
 /* -----------    Advantages   --------- */
 
-.advantages-icon-container {
 
-  margin-bottom: 8px;
-}
-
-.advantages-icon-list {
-  display: flex;
-  gap: 24px;
-}
-
-.advantages-icon-item {
-  display: flex;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-}
-
-.advantages-icon-position {
-  margin: 0 auto;
-}
 
 .advantages-title {
   font-weight: 700;
@@ -244,6 +224,7 @@ main>:first-child>.container {
 }
 
 .advantages-list {
+  display: flex;
   gap: 24px;
 }
 
@@ -266,6 +247,28 @@ main>:first-child>.container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.advantages-icon-container {
+
+  margin-bottom: 8px;
+}
+
+.advantages-icon-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-icon-item {
+  display: flex;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+}
+
+.advantages-icon-position {
+  margin: 0 auto;
 }
 
 /* -----------    Advantages end  --------- */
@@ -293,8 +296,13 @@ main>:first-child>.container {
 }
 
 .team-item {
-  background: #fff;
+  background-color: #fff;
   width: calc((100% - 72px) / 4);
+
+}
+
+.team-img {
+  margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -314,33 +322,43 @@ main>:first-child>.container {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
-/* .team-icon-container {
-   display: flex; 
-}*/
+.team-icon-container {
+  display: flex;
+}
 
 .team-icon-list {
   display: flex;
   gap: 24px;
   padding: 0 16px;
-  margin-top: 8px;
   margin-bottom: 32px;
 }
 
 .team-icon-item {
-  width: calc((100% - 72px) / 4);
+  display: flex;
+  width: 40px;
+  /* width: calc((100% - 72px) / 4); */
   height: 40px;
-  background-color: #4d5ae5;
-  text-align: center;
+  background-color: transparent;
+  border: 1px solid #000;
+  align-items: center;
   border-radius: 50%;
-  ;
+}
+
+.team-icon-item-position {
+  z-index: 1;
 }
 
 /* -----------    Team end  --------- */
 
 /* -----------    Portfolio  --------- */
 
+
+.portfolio-container {
+  display: flex;
+}
 
 .portfolio-title {
   font-weight: 700;
@@ -354,17 +372,15 @@ main>:first-child>.container {
 }
 
 .portfolio-list {
+  display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  /* flex-grow: 3; */
   max-width: 1128px;
   column-gap: 24px;
 }
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
-  /* background: #fff; */
-  /* flex-grow: 3; */
 }
 
 .portfolio-item>div {
