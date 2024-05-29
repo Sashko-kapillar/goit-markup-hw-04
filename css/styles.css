@@ -282,9 +282,10 @@ main>:first-child>.container {
   background-color: #f4f4fd;
 }
 
-.team-container {
-  display: flex;
-}
+/* .team-container {
+   display: flex; 
+} */
+
 
 .team-title {
   font-weight: 700;
