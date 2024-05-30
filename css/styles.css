@@ -429,9 +429,10 @@ main>:first-child>.container {
   transform: translateY(0%);
 }
 
-/* .portfolio-item:hover {
+.portfolio-item:hover .portfolio-img-text,
+.portfolio-item:focus .portfolio-img-text {
   transform: translateY(0%);
-} */
+}
 
 .portfolio-item>.container {
   padding: 32px 16px;
@@ -439,7 +440,7 @@ main>:first-child>.container {
   border-top: none;
 }
 
-.portfolio-img-container {
+.portfolio-img {
   position: relative;
   overflow: hidden;
 }
