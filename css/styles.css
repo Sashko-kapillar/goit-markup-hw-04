@@ -311,9 +311,11 @@ main>:first-child>.container {
   /* padding: 32px 0; */
 }
 
-.team-img {
-  /* padding: 32px 0; */
-  margin-bottom: 32px;
+/* .team-img {
+} */
+
+.team-name-position {
+  padding: 32px 0;
 }
 
 .team-subtitle {
@@ -335,10 +337,6 @@ main>:first-child>.container {
   color: #434455;
   margin-bottom: 8px;
 }
-
-/* .team-img {
-  padding: 32px 0;
-} */
 
 .team-icon-container {
   margin-bottom: 32px;
