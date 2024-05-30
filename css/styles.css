@@ -340,14 +340,13 @@ main>:first-child>.container {
   display: flex;
   gap: 24px;
   padding: 0 16px;
+  justify-content: center;
 }
 
 .team-icon-item {
   display: flex;
   width: 40px;
   height: 40px;
-  /* align-items: center;
-  justify-content: center; */
 }
 
 .team-icon-link {
