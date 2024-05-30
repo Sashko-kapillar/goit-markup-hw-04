@@ -75,10 +75,17 @@ a {
 
 .menu-item {
   padding: 24px 0;
+  color: #404bbf;
 }
 
 .menu-item::after {
-  color: #404bbf;
+  content: "";
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .logo-clr {
