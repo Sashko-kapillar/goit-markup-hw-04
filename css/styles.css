@@ -470,6 +470,8 @@ main>:first-child>.container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: 100%;
+  height: 100%;
 }
 
 /* -----------    Portfolio end  --------- */
