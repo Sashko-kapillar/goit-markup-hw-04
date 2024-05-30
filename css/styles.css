@@ -485,6 +485,7 @@ main>:first-child>.container {
 
 footer>.container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-container {
@@ -556,6 +557,10 @@ footer>.container {
 }
 
 .footer-icon-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-icon-link:focus {
   background-color: #31d0aa;
 }
 
