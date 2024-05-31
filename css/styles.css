@@ -168,10 +168,6 @@ a {
   padding: 188px 0;
 }
 
-main>:first-child>.container {
-  padding: 100px 0;
-}
-
 .hero-title {
   font-weight: 700;
   font-size: 56px;
