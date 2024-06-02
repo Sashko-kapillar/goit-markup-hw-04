@@ -29,6 +29,15 @@ a {
   padding-top: 120px;
 }
 
+button {
+  font-family: inherit;
+  color: currentColor;
+}
+
+input {
+  font-family: inherit;
+}
+
 /* -----------    Top-line    --------- */
 
 .header {
@@ -499,7 +508,6 @@ footer>.container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
   margin-bottom: 16px;
 }
 
@@ -519,6 +527,7 @@ footer>.container {
 .footer-media-container {
   display: flex;
   flex-direction: column;
+  margin-right: 80px;
 }
 
 .footer-text-media {
@@ -561,6 +570,70 @@ footer>.container {
 
 .footer-icon-item-position {
   fill: #f4f4fd;
+}
+
+.footer-send-label-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-send-container {
+  display: flex;
+
+}
+
+.footer-send-form {
+  display: flex;
+}
+
+.footer-send-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-send-label-text {
+  padding-bottom: 16px;
+}
+
+input {
+  padding: 16px;
+}
+
+input:placeholder-shown {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.footer-button {
+  display: inline-flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: 1px solid transparent;
+  margin-top: 40px;
+  margin-left: 24px;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.footer-send-icon {
+  margin-left: 16px;
+  justify-content: center;
+
 }
 
 /* -----------    Footer end  --------- */
